@@ -90,3 +90,4 @@ Thumbs.db
 /obj/Debug/*
 /bin/*
 /obj/Release/*
+/obj/*

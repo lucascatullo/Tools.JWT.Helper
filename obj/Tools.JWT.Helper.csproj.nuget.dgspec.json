@@ -5,10 +5,10 @@
   },
   "projects": {
     "C:\\Users\\Lucas\\Documents\\C# libraries\\Tools.JWT.Helper\\Tools.JWT.Helper.csproj": {
-      "version": "1.0.0",
+      "version": "1.0.2",
       "restore": {
         "projectUniqueName": "C:\\Users\\Lucas\\Documents\\C# libraries\\Tools.JWT.Helper\\Tools.JWT.Helper.csproj",
-        "projectName": "Tools.JWT.Helper",
+        "projectName": "LucasC1992.Tools.Jwt.Helper",
         "projectPath": "C:\\Users\\Lucas\\Documents\\C# libraries\\Tools.JWT.Helper\\Tools.JWT.Helper.csproj",
         "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Lucas\\Documents\\C# libraries\\Tools.JWT.Helper\\obj\\",
@@ -46,9 +46,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Core.Models.Manager": {
+            "LucasC1992.Core.Models.Manager": {
               "target": "Package",
-              "version": "[1.0.0, )"
+              "version": "[1.0.2, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
@@ -64,7 +64,7 @@
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.1, )"
             }
           },
           "imports": [
