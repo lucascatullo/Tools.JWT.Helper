@@ -13,7 +13,7 @@ public class JwtUser : IJwtUser
     /// <param name="User">Access from your controller this.User</param>
     JwtUser(ClaimsPrincipal User)
     {
-        if (User.Claims.Count() < 3)
+        if (User.Claims.Count() < JwtConstants.MIN_AMMOUNT_OF_CLAIMS)
             throw new Exception<RetrievingUserClaimsException>(new RetrievingUserClaimsException());
 
         Email = User.Claims.ElementAt(JwtConstants.EMAIL_CLAIM_POSITION).Value;
