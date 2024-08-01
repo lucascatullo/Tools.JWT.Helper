@@ -11,7 +11,7 @@ public class JwtUser : IJwtUser
     /// Map JWT claims into the correct Property.
     /// </summary>
     /// <param name="User">Access from your controller this.User</param>
-    JwtUser(ClaimsPrincipal User)
+    public JwtUser(ClaimsPrincipal User)
     {
         if (User.Claims.Count() < JwtConstants.MIN_AMMOUNT_OF_CLAIMS)
             throw new Exception<RetrievingUserClaimsException>(new RetrievingUserClaimsException());
